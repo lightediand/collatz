@@ -1,6 +1,5 @@
 def stopping_time(z: int):
     s=[]
-    s.clear()
     s.append(z)
     while z>1:
         if z%2==0:
