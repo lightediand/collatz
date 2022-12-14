@@ -10,4 +10,4 @@ def sequence_generator(z: int):
             n = 3*z + 1
             sequence.append(n)
             z = n
-    print(sequence)
+    return sequence

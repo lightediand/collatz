@@ -11,5 +11,5 @@ def stopping_time(z: int):
             n=3*z+1
             s.append(n)
             z = n
-    print(len(s)-1)
+    return len(s)-1
 
