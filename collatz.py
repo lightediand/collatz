@@ -7,8 +7,7 @@ while True:
     if test_value == str("exit"):
        print("Have a nice day!")
        break
-    else:
-       t = int(test_value)
-       print("\nFor the test value", t, "the stopping time is", st(t), "and the sequence is:")
-       print(sg(t))
-       print("\nUnfortunately, this number is not a counterexample to the Collatz Conjecture. Try again!\n")
+    t = int(test_value)
+    print("\nFor the test value", t, "the stopping time is", st(t), "and the sequence is:")
+    print(sg(t))
+    print("\nUnfortunately, this number is not a counterexample to the Collatz Conjecture. Try again!\n")
