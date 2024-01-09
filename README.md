@@ -1,4 +1,4 @@
-# Collatz Conjecture Counterexample Finder!
+# Collatz Conjecture Counterexample Conjureupperer!
 
 This is a fun little program that tests whether or not a given integer is a counterexample to the Collatz conjecture.
 
@@ -9,6 +9,6 @@ The program takes the starting number and generators a sequence based on these r
     
 The time it takes for a sequence to reach 1, marked by the number of terms in the sequence before 1, is known as the stopping time.
 
-Simply run collatz.py and it will generate the sequence, tell you the stopping time (if it exists (it probably will)) and whether or not that makes it a counterexample to the Collatz conjecture.
+Simply run collatz.py and it will generate the sequence, tell you the stopping time (if it exists (it probably will)) and whether or not we have conjured up a counterexample to the Collatz conjecture.
 
 Have fun!
